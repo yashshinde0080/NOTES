@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage{algorithm}
+\usepackage{algpseudocode}  
+\begin{document}
+\begin{algorithm}
+\caption{Bubble Sort}
+\begin{algorithmic}[1]
+\Procedure{BubbleSort}{$A, n$}
+\For{$i \gets 0$ to $n-1$}
+\For{$j \gets 0$ to $n-1-i$}
+\If{$A[j] > A[j+1]$}
+\State Swap $A[j]$ and $A[j+1]$
+\EndIf
+\EndFor
+\EndFor
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+\end{document}
+
+%
+%\documentclass{article}
+%\usepackage{algorithm}
+%\usepackage{algpseudocode}  
+%\begin{document}
+%\begin{algorithm}
+%\caption{Example Algorithm}
+%\begin{algorithmic}[1]
+%\Procedure{ExampleProcedure}{$a, b$}
+%    \State $result \gets a + b$
+%    \If{$result > 0$}
+%        \State \Return $result$
+%    \Else
+%        \State \Return $0$
+%    \EndIf
+%\EndProcedure
+%\end{algorithmic}
+%\end{algorithm}
+%\end{document}
+

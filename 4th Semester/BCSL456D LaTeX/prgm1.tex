@@ -1,0 +1,17 @@
+\documentclass{article} % Packages
+\usepackage{fancyhdr} % For header and footer
+\usepackage{lipsum} % For dummy text % Header and footer settings
+\usepackage{blindtext}
+\pagestyle{fancy}
+\fancyhf{} %a merge of \fancyhead and \fancyfoot
+\rfoot{\thepage}
+\lhead{\textbf{ First Program using LaTex}}
+\lfoot{\textbf{Jain College of Engineering and Research, Belagavi}} % Document
+\fancyhead[L]{ First Program using LaTex}  % Left-aligned header
+\fancyfoot[R]{Page No.\thepage} 
+\begin{document}
+\section{Section 1}
+\lipsum[1] % Dummy text
+\section{Section 2}
+\lipsum[2-3] % Dummy text
+\end{document}

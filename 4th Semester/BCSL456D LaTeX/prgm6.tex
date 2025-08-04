@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage{graphicx}  % Required for including images
+\usepackage{subcaption}  % Required for subfigures
+%\usepackage{subfigure}
+
+\begin{document}
+	
+	\begin{figure}[h]
+		\centering
+		\begin{subfigure}{0.46\linewidth}  % Subfigure environment for the first image
+			\includegraphics[width=\linewidth]{image1.jpeg}  % Include image1.jpg
+			\caption{Caption for image 1}  % Caption for the first image
+			\label{fig:subfig1}  % Label for referencing the first image
+		\end{subfigure}
+		\hfill  % Add horizontal space between subfigures
+		\begin{subfigure}{0.44\linewidth}  % Subfigure environment for the second image
+			\includegraphics[width=\linewidth]{image2.jpeg}  % Include image2.png
+			\caption{Caption for image 2}  % Caption for the second image
+			\label{fig:subfig2}  % Label for referencing the second image
+		\end{subfigure}
+		\caption{Side-by-side images using subgraph concept}  % Overall caption for the figure
+		\label{fig:subfigures}  % Label for referencing the entire figure
+	\end{figure}
+	
+\end{document}
